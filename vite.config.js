@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: '.',
-  base: '/food-order-app/',   // ← must match your GitHub repo name exactly
+  base: '/',
   build: {
     outDir: 'dist'
   },
